@@ -1,17 +1,13 @@
-package com.amigoscode.notifications.customer;
+package com.amigoscode.notifications;
 
 import org.springframework.boot.SpringApplication;
 import org.springframework.boot.autoconfigure.SpringBootApplication;
 import org.springframework.cloud.netflix.eureka.EnableEurekaClient;
-import org.springframework.cloud.openfeign.EnableFeignClients;
 
 @SpringBootApplication
 @EnableEurekaClient
-@EnableFeignClients(
-        "com.amigoscode.clients"
-)
-public class CustomerApplication {
+public class NotificationApplication {
     public static void main(String[] args) {
-        SpringApplication.run(CustomerApplication.class, args);
+        SpringApplication.run(NotificationApplication.class, args);
     }
 }

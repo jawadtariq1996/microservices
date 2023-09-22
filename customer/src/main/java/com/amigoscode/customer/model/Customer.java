@@ -1,4 +1,4 @@
-package com.amigoscode.customer.model;
+package com.amigoscode.notifications.customer.model;
 
 import lombok.AllArgsConstructor;
 import lombok.Builder;

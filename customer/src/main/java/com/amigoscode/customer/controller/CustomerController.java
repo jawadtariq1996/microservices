@@ -1,7 +1,7 @@
-package com.amigoscode.customer.controller;
+package com.amigoscode.notifications.customer.controller;
 
-import com.amigoscode.customer.model.CustomerRegistrationRequest;
-import com.amigoscode.customer.service.CustomerService;
+import com.amigoscode.notifications.customer.model.CustomerRegistrationRequest;
+import com.amigoscode.notifications.customer.service.CustomerService;
 import lombok.AllArgsConstructor;
 import lombok.extern.slf4j.Slf4j;
 import org.springframework.web.bind.annotation.PostMapping;
