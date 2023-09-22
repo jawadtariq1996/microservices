@@ -1,4 +1,4 @@
-package com.amigoscode.notifications.customer;
+package com.amigoscode.customer;
 
 import org.springframework.boot.SpringApplication;
 import org.springframework.boot.autoconfigure.SpringBootApplication;
@@ -8,7 +8,7 @@ import org.springframework.cloud.openfeign.EnableFeignClients;
 @SpringBootApplication
 @EnableEurekaClient
 @EnableFeignClients(
-        "com.amigoscode.clients"
+        basePackages = "com.amigoscode.clients"
 )
 public class CustomerApplication {
     public static void main(String[] args) {

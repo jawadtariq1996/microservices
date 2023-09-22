@@ -1,3 +1,3 @@
-package com.amigoscode.notifications.clients.fraud;
-public record FraudCheckResponse(Boolean isFraudster) {
+package com.amigoscode.clients;
+public record FraudCheckResponse(boolean isFraudster) {
 }

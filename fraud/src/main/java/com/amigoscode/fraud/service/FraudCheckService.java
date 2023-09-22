@@ -1,7 +1,7 @@
-package com.amigoscode.notifications.fraud.service;
+package com.amigoscode.fraud.service;
 
-import com.amigoscode.notifications.fraud.model.FraudCheckHistory;
-import com.amigoscode.notifications.fraud.repository.FraudCheckHistoryRepository;
+import com.amigoscode.fraud.model.FraudCheckHistory;
+import com.amigoscode.fraud.repository.FraudCheckHistoryRepository;
 import lombok.AllArgsConstructor;
 import org.springframework.stereotype.Service;
 

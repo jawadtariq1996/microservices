@@ -1,6 +1,6 @@
-package com.amigoscode.notifications.customer.model;
+package com.amigoscode.customer.model;
 
-public record CustomerRegistrationRequest(String firstname,
+public record CustomerRegistrationRequest(String firstName,
                                           String lastName,
                                           String email) {
 }
