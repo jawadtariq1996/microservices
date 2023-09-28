@@ -4,6 +4,8 @@ server:
 spring:
   application:
     name: notification
+  profiles:
+    active: dev
   datasource:
     driverClassName: com.mysql.jdbc.Driver
     url: jdbc:mysql://localhost:3306/notification
