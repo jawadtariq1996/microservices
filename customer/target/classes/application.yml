@@ -6,15 +6,6 @@ spring:
     name: customer
   profiles:
     active: dev
-#  datasource:
-#    driverClassName: com.mysql.jdbc.Driver
-#    url: jdbc:mysql://localhost:3306/customer
-#    username: root
-#    password: admin
-#  jpa:
-#    hibernate.ddl-auto: update
-#    generate-ddl: true
-#    show-sql: true
 
 eureka:
   client:
